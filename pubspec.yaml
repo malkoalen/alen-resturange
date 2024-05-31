@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   provider: ^6.1.2
+  firebase_core: ^2.32.0
 
 dev_dependencies:
   flutter_test:
@@ -63,8 +64,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - lib/image/burgers/
     - lib/image/dessert/
+    - lib/image/burgers/
     - lib/image/drinks/
     - lib/image/salads/
     - lib/image/sides/
